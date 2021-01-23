@@ -524,69 +524,69 @@ INPUT ./pictures/spectrometer-picture.png
 INPUT ./pictures/spectrometer-picture.png
 INPUT pictures/spectrometer-picture.png
 INPUT extractbb -B cropbox -O pictures/spectrometer-picture.png
-INPUT ./pictures/picture-example.png
-INPUT ./pictures/picture-example.png
-INPUT pictures/picture-example.png
-INPUT extractbb -B cropbox -O pictures/picture-example.png
-INPUT ./pictures/spectrum-example.png
-INPUT ./pictures/spectrum-example.png
-INPUT pictures/spectrum-example.png
-INPUT extractbb -B cropbox -O pictures/spectrum-example.png
-INPUT ./pictures/back-spectrum-example.png
-INPUT ./pictures/back-spectrum-example.png
-INPUT pictures/back-spectrum-example.png
-INPUT extractbb -B cropbox -O pictures/back-spectrum-example.png
-INPUT ./pictures/true-spectrum-example.png
-INPUT ./pictures/true-spectrum-example.png
-INPUT pictures/true-spectrum-example.png
-INPUT extractbb -B cropbox -O pictures/true-spectrum-example.png
-INPUT ./pictures/pixel-to-wavelength.png
-INPUT ./pictures/pixel-to-wavelength.png
-INPUT pictures/pixel-to-wavelength.png
-INPUT extractbb -B cropbox -O pictures/pixel-to-wavelength.png
-INPUT ./pictures/all-spectrum.png
-INPUT ./pictures/all-spectrum.png
-INPUT pictures/all-spectrum.png
-INPUT extractbb -B cropbox -O pictures/all-spectrum.png
-INPUT ./pictures/voigt-fitting-1.png
-INPUT ./pictures/voigt-fitting-1.png
-INPUT pictures/voigt-fitting-1.png
-INPUT extractbb -B cropbox -O pictures/voigt-fitting-1.png
-INPUT ./pictures/voigt-fitting-2.png
-INPUT ./pictures/voigt-fitting-2.png
-INPUT pictures/voigt-fitting-2.png
-INPUT extractbb -B cropbox -O pictures/voigt-fitting-2.png
-INPUT ./pictures/upper-boltzmann-plot.png
-INPUT ./pictures/upper-boltzmann-plot.png
-INPUT pictures/upper-boltzmann-plot.png
-INPUT extractbb -B cropbox -O pictures/upper-boltzmann-plot.png
-INPUT ./pictures/upper-fitting-0.png
-INPUT ./pictures/upper-fitting-0.png
-INPUT pictures/upper-fitting-0.png
-INPUT extractbb -B cropbox -O pictures/upper-fitting-0.png
+INPUT ./pictures/picture-example.pdf
+INPUT ./pictures/picture-example.pdf
+INPUT pictures/picture-example.pdf
+INPUT extractbb -B cropbox -O pictures/picture-example.pdf
+INPUT ./pictures/spectrum-example.pdf
+INPUT ./pictures/spectrum-example.pdf
+INPUT pictures/spectrum-example.pdf
+INPUT extractbb -B cropbox -O pictures/spectrum-example.pdf
+INPUT ./pictures/back-spectrum-example.pdf
+INPUT ./pictures/back-spectrum-example.pdf
+INPUT pictures/back-spectrum-example.pdf
+INPUT extractbb -B cropbox -O pictures/back-spectrum-example.pdf
+INPUT ./pictures/true-spectrum-example.pdf
+INPUT ./pictures/true-spectrum-example.pdf
+INPUT pictures/true-spectrum-example.pdf
+INPUT extractbb -B cropbox -O pictures/true-spectrum-example.pdf
+INPUT ./pictures/pixel-to-wavelength.pdf
+INPUT ./pictures/pixel-to-wavelength.pdf
+INPUT pictures/pixel-to-wavelength.pdf
+INPUT extractbb -B cropbox -O pictures/pixel-to-wavelength.pdf
+INPUT ./pictures/all-spectrum.pdf
+INPUT ./pictures/all-spectrum.pdf
+INPUT pictures/all-spectrum.pdf
+INPUT extractbb -B cropbox -O pictures/all-spectrum.pdf
+INPUT ./pictures/voigt-fitting-1.pdf
+INPUT ./pictures/voigt-fitting-1.pdf
+INPUT pictures/voigt-fitting-1.pdf
+INPUT extractbb -B cropbox -O pictures/voigt-fitting-1.pdf
+INPUT ./pictures/voigt-fitting-2.pdf
+INPUT ./pictures/voigt-fitting-2.pdf
+INPUT pictures/voigt-fitting-2.pdf
+INPUT extractbb -B cropbox -O pictures/voigt-fitting-2.pdf
+INPUT ./pictures/upper-boltzmann-plot.pdf
+INPUT ./pictures/upper-boltzmann-plot.pdf
+INPUT pictures/upper-boltzmann-plot.pdf
+INPUT extractbb -B cropbox -O pictures/upper-boltzmann-plot.pdf
+INPUT ./pictures/upper-fitting-0.pdf
+INPUT ./pictures/upper-fitting-0.pdf
+INPUT pictures/upper-fitting-0.pdf
+INPUT extractbb -B cropbox -O pictures/upper-fitting-0.pdf
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm
-INPUT ./pictures/upper-fitting-1.png
-INPUT ./pictures/upper-fitting-1.png
-INPUT pictures/upper-fitting-1.png
-INPUT extractbb -B cropbox -O pictures/upper-fitting-1.png
-INPUT ./pictures/upper-fitting-2.png
-INPUT ./pictures/upper-fitting-2.png
-INPUT pictures/upper-fitting-2.png
-INPUT extractbb -B cropbox -O pictures/upper-fitting-2.png
-INPUT ./pictures/fitting-result.png
-INPUT ./pictures/fitting-result.png
-INPUT pictures/fitting-result.png
-INPUT extractbb -B cropbox -O pictures/fitting-result.png
-INPUT ./pictures/ground-state-n.png
-INPUT ./pictures/ground-state-n.png
-INPUT pictures/ground-state-n.png
-INPUT extractbb -B cropbox -O pictures/ground-state-n.png
-INPUT ./pictures/voigt-fitting-3.png
-INPUT ./pictures/voigt-fitting-3.png
-INPUT pictures/voigt-fitting-3.png
-INPUT extractbb -B cropbox -O pictures/voigt-fitting-3.png
+INPUT ./pictures/upper-fitting-1.pdf
+INPUT ./pictures/upper-fitting-1.pdf
+INPUT pictures/upper-fitting-1.pdf
+INPUT extractbb -B cropbox -O pictures/upper-fitting-1.pdf
+INPUT ./pictures/upper-fitting-2.pdf
+INPUT ./pictures/upper-fitting-2.pdf
+INPUT pictures/upper-fitting-2.pdf
+INPUT extractbb -B cropbox -O pictures/upper-fitting-2.pdf
+INPUT ./pictures/fitting-result.pdf
+INPUT ./pictures/fitting-result.pdf
+INPUT pictures/fitting-result.pdf
+INPUT extractbb -B cropbox -O pictures/fitting-result.pdf
+INPUT ./pictures/ground-state-n.pdf
+INPUT ./pictures/ground-state-n.pdf
+INPUT pictures/ground-state-n.pdf
+INPUT extractbb -B cropbox -O pictures/ground-state-n.pdf
+INPUT ./pictures/voigt-fitting-3.pdf
+INPUT ./pictures/voigt-fitting-3.pdf
+INPUT pictures/voigt-fitting-3.pdf
+INPUT extractbb -B cropbox -O pictures/voigt-fitting-3.pdf
 INPUT ./pictures/ishihara-upper-boltzmann.png
 INPUT ./pictures/ishihara-upper-boltzmann.png
 INPUT pictures/ishihara-upper-boltzmann.png

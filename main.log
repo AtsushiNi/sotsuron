@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.3-191112-2.6 (utf8.euc) (TeX Live 2020) (preloaded format=platex 2021.1.6)  22 JAN 2021 23:18
+This is e-pTeX, Version 3.14159265-p3.8.3-191112-2.6 (utf8.euc) (TeX Live 2020) (preloaded format=platex 2021.1.6)  23 JAN 2021 16:14
 entering extended mode
  \write18 enabled.
  Source specials enabled.
@@ -407,36 +407,36 @@ File: pictures/chamber-simple.png Graphic file (type bmp)
 <pictures/chamber-simple.png>
 File: pictures/spectrometer-picture.png Graphic file (type bmp)
 <pictures/spectrometer-picture.png>
-File: pictures/picture-example.png Graphic file (type bmp)
-<pictures/picture-example.png>
-File: pictures/spectrum-example.png Graphic file (type bmp)
-<pictures/spectrum-example.png>
-File: pictures/back-spectrum-example.png Graphic file (type bmp)
-<pictures/back-spectrum-example.png>
-File: pictures/true-spectrum-example.png Graphic file (type bmp)
-<pictures/true-spectrum-example.png>
-File: pictures/pixel-to-wavelength.png Graphic file (type bmp)
-<pictures/pixel-to-wavelength.png>
-File: pictures/all-spectrum.png Graphic file (type bmp)
-<pictures/all-spectrum.png>
-File: pictures/voigt-fitting-1.png Graphic file (type bmp)
-<pictures/voigt-fitting-1.png>
-File: pictures/voigt-fitting-2.png Graphic file (type bmp)
-<pictures/voigt-fitting-2.png>
-File: pictures/upper-boltzmann-plot.png Graphic file (type bmp)
-<pictures/upper-boltzmann-plot.png>
-File: pictures/upper-fitting-0.png Graphic file (type bmp)
-<pictures/upper-fitting-0.png>
-File: pictures/upper-fitting-1.png Graphic file (type bmp)
-<pictures/upper-fitting-1.png>
-File: pictures/upper-fitting-2.png Graphic file (type bmp)
-<pictures/upper-fitting-2.png>
-File: pictures/fitting-result.png Graphic file (type bmp)
-<pictures/fitting-result.png>
-File: pictures/ground-state-n.png Graphic file (type bmp)
-<pictures/ground-state-n.png>
-File: pictures/voigt-fitting-3.png Graphic file (type bmp)
-<pictures/voigt-fitting-3.png>
+File: pictures/picture-example.pdf Graphic file (type pdf)
+<pictures/picture-example.pdf>
+File: pictures/spectrum-example.pdf Graphic file (type pdf)
+<pictures/spectrum-example.pdf>
+File: pictures/back-spectrum-example.pdf Graphic file (type pdf)
+<pictures/back-spectrum-example.pdf>
+File: pictures/true-spectrum-example.pdf Graphic file (type pdf)
+<pictures/true-spectrum-example.pdf>
+File: pictures/pixel-to-wavelength.pdf Graphic file (type pdf)
+<pictures/pixel-to-wavelength.pdf>
+File: pictures/all-spectrum.pdf Graphic file (type pdf)
+<pictures/all-spectrum.pdf>
+File: pictures/voigt-fitting-1.pdf Graphic file (type pdf)
+<pictures/voigt-fitting-1.pdf>
+File: pictures/voigt-fitting-2.pdf Graphic file (type pdf)
+<pictures/voigt-fitting-2.pdf>
+File: pictures/upper-boltzmann-plot.pdf Graphic file (type pdf)
+<pictures/upper-boltzmann-plot.pdf>
+File: pictures/upper-fitting-0.pdf Graphic file (type pdf)
+<pictures/upper-fitting-0.pdf>
+File: pictures/upper-fitting-1.pdf Graphic file (type pdf)
+<pictures/upper-fitting-1.pdf>
+File: pictures/upper-fitting-2.pdf Graphic file (type pdf)
+<pictures/upper-fitting-2.pdf>
+File: pictures/fitting-result.pdf Graphic file (type pdf)
+<pictures/fitting-result.pdf>
+File: pictures/ground-state-n.pdf Graphic file (type pdf)
+<pictures/ground-state-n.pdf>
+File: pictures/voigt-fitting-3.pdf Graphic file (type pdf)
+<pictures/voigt-fitting-3.pdf>
 File: pictures/ishihara-upper-boltzmann.png Graphic file (type bmp)
 <pictures/ishihara-upper-boltzmann.png>
 ) [15
@@ -467,12 +467,12 @@ Class bxjsreport Warning: Some old font commands were used in text:
 
 (./main.aux (./abstract.aux) (./introduction.aux) (./principle.aux) (./experimental_device.aux) (./data.aux) (./analysis.aux) (./consideration.aux) (./conclusion.aux) (./acknowledgments.aux) (./references.aux) (./figures.aux) (./tables.aux)) ) 
 Here is how much of TeX's memory you used:
- 3276 strings out of 479782
- 49351 string characters out of 5879727
+ 3277 strings out of 479782
+ 49355 string characters out of 5879727
  354649 words of memory out of 5000000
  20536 multiletter control sequences out of 15000+600000
  419503 words of font info for 102 fonts, out of 8000000 for 9000
  934 hyphenation exceptions out of 8191
  69i,19n,70p,519b,378s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.dvi (30 pages, 70832 bytes).
+Output written on main.dvi (30 pages, 71088 bytes).
