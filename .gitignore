@@ -3,9 +3,8 @@
 *.log
 *.toc
 *.dvi
-*.fdv_latexmk
+*.fdb_latexmk
 *.fls
 *.lof
 *.lot
 *.gz
-*.tex
