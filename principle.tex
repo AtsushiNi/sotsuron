@@ -14,7 +14,7 @@ Fulcher-α遷移に関わる水素分子のエネルギー準位について説�
 
 それぞれの電子励起準位について振動のエネルギー準位が存在する．
 図中の$v, v', v''$はそれぞれ，X, d, a準位の振動量子数である．
-さらに，それぞれの振動励起準位について回転のエネルギー準位が存在し，図中の$N, N', N''$はそれぞれX, d, a準位の回転量子数である．
+さらに，それぞれの振動励起準位について回転のエネルギー準位が存在し，図中の$J, J', J''$はそれぞれX, d, a準位の回転量子数である．
 
 プラズマ中では基底準位$X^1 \Sigma^+_g$にある水素分子が電子と非弾性衝突することで発光上準位$d^3 \Pi^-_u$へ励起される．
 その励起された分子が発光下準位$a^3 \Sigma^+_g$へ自然放出する際に発光するスペクトル帯が本研究の計測対象とするFulcher-α帯である．
@@ -24,7 +24,7 @@ Fulcher-α遷移に関わる水素分子のエネルギー準位について説�
 この近似を用いると，水素分子を構成する全ての粒子に対してシュレディンガー方程式を同時に解くのではなく，分子の電子波動関数と振動・回転の波動関数を分離することで，振動・回転準位エネルギーを求めることが可能になる．
 回転による遠心力ひずみを考慮した回転準位エネルギーは以下のように近似的に表すことができる\cite{bunsibunko-no-kiso}．
 \begin{equation}
-    E^v_{\rm rot} \cong B^{\rm v} N (N+1) - D_{\rm e} [N(N+1)]^2
+    E^v_{\rm rot} \cong B^{\rm v} J (J+1) - D_{\rm e} [J(J+1)]^2
 \end{equation}
 ここで$B^{\rm v}$は回転定数，$D_{\rm e}$は遠心力ひずみ定数であり，$B^{\rm v}$は平衡点における回転定数$B_{\rm e}$と回転定数の1次の補正項$\alpha_{\rm e}$を用いて$B^{\rm v}=B_{\rm e} - \alpha_{\rm e} (v + 1/2)$と近似される\cite{bunsibunko-no-kiso}．
 また，振動準位エネルギーは以下の近似式で表すことができる\cite{bunsibunko-no-kiso}．
@@ -35,117 +35,121 @@ Fulcher-α遷移に関わる水素分子のエネルギー準位について説�
 表\ref{table:molecular-constants}にまとめたこれらの分子定数はデータベースから得られる\cite{nist}．
 
 \subsection{選択則}
-分子の電子状態間の遷移($n$→$n'$→$n''$)には一般的に振動回転状態の遷移($v,N$→$v',N'$→$v'',N''$)が伴うが，そこには選択則が存在し，遷移モーメントが零ではない条件から導くことができる\cite{bunsibunko-no-kiso}．
+分子の電子状態間の遷移には一般的に振動回転状態の遷移が伴うが，そこには選択則が存在する\cite{bunsibunko-no-kiso}．
 まず，振動量子数は$\Delta v = v'-v'' = 0$を満たす．
-また，回転量子数は$\Delta N = N' - N'' = -1,0,1$を満たすが，$N'=N''=0$は禁制遷移である．
-$\Delta N$に対応するスペクトル枝をそれぞれP枝，Q枝，R枝と呼ぶが，本研究ではQ枝について分析を行うので，$\Delta N = 0$である．
+また，回転量子数は$\Delta J = J' - J'' = -1,0,1$を満たすが，$J'=J''=0$は禁制遷移である．
+$\Delta J$に対応するスペクトル枝をそれぞれP枝，Q枝，R枝と呼ぶが，本研究ではQ枝について分析を行うので，$\Delta J = 0$である．
 
-\section{基底準位の振動・回転占有数の計算}
-\subsection{発光強度と発光上準位占有数の関係}
-発光上準位の占有密度$n_{dv'N'}$は発光強度$I^{dv'N'}_{av''N''}$を用いて下式で表すことができる
+\section{基底準位の振動・回転状態占有率の計算}
+\subsection{発光上準位の振動・回転状態占有率と発光強度の関係}
+発光上準位の振動・回転状態占有率$n_{dv'J'}$は発光上準位の振動・回転状態占有数$N_{dv'J'}$を用いて下式で表す．
 \begin{equation}
-    n_{dv'N'}=\frac{I^{dv'N'}_{av''N''}\lambda^{dv'N'}_{av''N''}}{hc}\frac{1}{A^{dv'N'}_{av''N''}}
+    n_{dv'J'} = \frac{N_{dv'J'}}{\sum_{v'J'} N_{dv'J'}}
 \end{equation}
-ここで$\lambda^{dv'N'}_{av''N''}$は発光線の波長，$h$はプランク定数，$c$は光速である．
-$A^{dv'N'}_{av''N''}$は自然発光係数であり，Born-Oppenheimer近似に加えてFranck-Condon原理(振動の対角遷移についての誤差は小さい)を仮定すると
+$N_{dv'J'}$は発光強度$I^{dv'J'}_{av''J''}$を用いて
 \begin{equation}
-    A^{dv'N'}_{av''N''} = \frac{16 \pi^3}{3h \epsilon_0 {\lambda^{dv'N'}_{av''N''}}^3 } \overline{R_{\rm e}}^2 q^{dv'}_{av''} S^{dN'}_{aN''} \frac{1}{2N'+1}
+    N_{dv'J'}=\frac{I^{dv'J'}_{av''J''}\lambda^{dv'J'}_{av''J''}}{hc}\frac{1}{A^{dv'J'}_{av''J''}}
+\end{equation}
+と表せるので，
+\begin{equation}
+    n_{dv'J'} = \frac{1}{\sum_{v'J'} \frac{I^{dv'J'}_{av''J''}\lambda^{dv'J'}_{av''J''}}{A^{dv'J'}_{av''J''}}} \frac{I^{dv'J'}_{av''J''}\lambda^{dv'J'}_{av''J''}}{A^{dv'J'}_{av''J''}}
+\end{equation}
+と書ける．
+ここで$\lambda^{dv'N'}_{av''N''}$は発光線の波長，$h$はプランク定数，$c$は光速である．
+$A^{dv'J'}_{av''J''}$は自然発光係数であり
+\begin{equation}
+    A^{dv'J'}_{av''J''} = \frac{16 \pi^3}{3h \epsilon_0 {\lambda^{dv'J'}_{av''J''}}^3 } \overline{R_{\rm e}}^2 q^{dv'}_{av''} S^{dJ'}_{aJ''} \frac{1}{2J'+1}
 \end{equation}
 と表せる\cite{PRnoijousei}．
-$\overline{R_{\rm e}}$は電気双極子モーメント，$q^{dv'}_{av''}$はFranck-Condon因子，$2N'+1$は上準位の回転量子数の統計重率である．
-$S^{N'}_{N''}$はH\"{o}nl-London因子といい，回転構造の相対強度を表す値である．
+$\epsilon_0$は真空の誘電率，$\overline{R_{\rm e}}$は電気双極子モーメント，$q^{dv'}_{av''}$はFranck-Condon因子，$S^{J'}_{J''}$はH\"{o}nl-London因子，$2J'+1$は回転の縮退度である．
 Fulcher-α帯ではH\"{o}nl-London因子は
 \begin{equation}
-    S^{N'}_{N''} = \begin{cases}
-        \frac{N'}{2} & (P枝)\\
-        \frac{2N'+1}{2} & (Q枝)\\
-        \frac{N'+1}{2} & (R枝)
+    S^{J'}_{J''} = \begin{cases}
+        \frac{J'}{2} & (P枝)\\
+        \frac{2J'+1}{2} & (Q枝)\\
+        \frac{J'+1}{2} & (R枝)
     \end{cases}
 \end{equation}
 である\cite{PRnoijousei}．
 
-\subsection{上準位のボルツマンプロットおよび回転温度}
-上準位の占有数がボルツマン分布に従うと仮定すると，上準位の占有数$n_{dv'N'}$は
+\subsection{上準位における振動・回転状態占有率のボルツマンプロットおよび回転温度}
+上準位の占有数がボルツマン分布に従うと仮定すると，発光上準位の占有率は
 \begin{equation}
-\begin{split}
-    n_{dv'N'} &= C_{dv'} \left(  2N'+1 \right) g^{N'}_{\rm as} \exp \left(-\frac{E^{dv'}_{\rm rot}(N')}{k_{\rm B} T^{dv'}_{\rm rot}} \right)\\
-    &= \frac{ n_{dv'} \left(  2N'+1 \right) g^{N'}_{\rm as} \exp \left(-\frac{E^{dv'}_{\rm rot}(N')}{k_{\rm B} T^{dv'}_{\rm rot}} \right) }{ \sum_{N'} \left(  2N'+1 \right) g^{N'}_{\rm as} \exp \left(-\frac{E^{dv'}_{\rm rot}(N')}{k_{\rm B} T^{dv'}_{\rm rot}} \right)}
-\end{split}
+    n_{dv'J'} = \frac{ \left(  2J'+1 \right) g^{J'}_{\rm as} \exp \left(-\frac{E^{dv'}_{\rm rot}(J')}{k_{\rm B} T^{dv'}_{\rm rot}} \right) }{ \sum_{J'} \left(  2J'+1 \right) g^{J'}_{\rm as} \exp \left(-\frac{E^{dv'}_{\rm rot}(J')}{k_{\rm B} T^{dv'}_{\rm rot}} \right)}
 \end{equation}
 と表せる．
-ここで$C_{dv'}$は規格化定数であり，$n_{dv'}$は振動量子数が$v'$である発光上準位の密度である．
-$(2N'+1)$,$g^{N'}_{\rm as}$,$E^{dv'}_{\rm rot}$,$T^{dv'}_{\rm rot}$は，それぞれ発光上準位の回転の縮退度，核スピンの縮退度，回転エネルギー，回転温度である．
-この式と式2.3より，発光強度$I^{dv'N'}_{av''N''}$と上準位の回転温度$T^{dv'N'}_{\rm rot}$の関係は
+$(2J'+1)$,$g^{J'}_{\rm as}$,$E^{dv'}_{\rm rot}$,$T^{dv'}_{\rm rot}$は，それぞれ発光上準位の回転の縮退度，核スピンの縮退度，回転エネルギー，回転温度であり，$k_{\rm B}$はボルツマン定数である．
+両辺対数をとると，
 \begin{equation}
-    \frac{I^{dv'N'}_{av''N''}\lambda^{dv'N'}_{av''N''}}{hc}\frac{1}{A^{dv'N'}_{av''N''}} = C_{dv'} \left(  2N'+1 \right) g^{N'}_{\rm as} \exp \left(-\frac{E^{dv'}_{\rm rot}(N')}{k_{\rm B} T^{dv'}_{\rm rot}} \right)
+    \ln \left[ \frac{n_{dv'J'}}{\left( 2J'+1 \right) g^{J'}_{\rm as}} \right]
+    = const - \frac{E^{dv'}_{\rm rot}(J')}{k_{\rm B} T^{dv'}_{\rm rot}}
 \end{equation}
-となる．この式を整理して両辺対数をとると，
-\begin{equation}
-    \ln \left[ \frac{I^{dv'N'}_{av''N''} {\left( \lambda^{dv'N'}_{av''N''} \right)}^4}{\left( 2N'+1 \right) g^{N'}_{\rm as}} \right] = const + \ln \left[ \frac{n_{dv'N'}}{\left( 2N'+1 \right) g^{N'}_{\rm as}} \right]
-    = const - \frac{E^{dv'}_{\rm rot}(N')}{k_{\rm B} T^{dv'}_{\rm rot}}
-\end{equation}
-となる．ただし，$A^{dv'N'}_{av''N''}$は式2.4,式2.5を用いて計算している．
-この式に発光強度$I^{dv'N'}_{av''N''}$を入れてフィッティングすることで，発光上準位の回転温度$T^{dv'}_{\rm rot}$を求めることができる．
+となる．
+横軸を$E^{dv'}_{\rm rot}(J')$，縦軸を$n_{dv'J'}$としてプロットし，縦軸を対数に取った図を作成すると，その傾きから$T^{dv'}_{\rm rot}$を求めることができる．
 
 \subsection{コロナモデル}
-電子密度が十分に小さい領域では，発光上準位の占有密度変化を，電子衝突励起による基底準位からの流入量と自然放出脱励起による発光下準位への流出量で表すことができる．
+電子密度が十分に小さい領域では，発光上準位の占有数変化を，電子衝突励起による基底準位からの流入量と自然放出脱励起による発光下準位への流出量で表すことができる．
 これをコロナ平衡といい，以下の式で表される\cite{PRnoijousei}．
 \begin{equation}
-    \frac{\partial n_{dv'N'}}{\partial t} = n_{\rm e} \sum_{v, N} \left[ n_{XvN} R^{dv'N'}_{XvN} \right] - n_{dv'N'} \sum_{v"N"} A^{dv'N'}_{av"N"}
+    \frac{\partial N_{dv'J'}}{\partial t} = n_{\rm e} \sum_{v, J} \left[ N_{XvJ} R^{dv'J'}_{XvJ} \right] - N_{dv'J'} \sum_{v"J"} A^{dv'J'}_{av"J"}
 \end{equation}
-ここで$n_{XvN}$は基底準位の占有密度である．
-右辺第2項の総和記号は選択則($v'-v''=0$かつ$N'-N''=-1,0,1$)を満たす$v''，N''$についての和であることに注意する．
+ここで$n_{\rm e}$は電子密度であり，$N_{XvJ}$は基底準位の振動・回転状態占有数である．
+右辺第2項の総和記号は選択則($v'-v''=0$かつ$J'-J''=-1,0,1$)を満たす$v''，J''$についての和であることに注意する．
 左辺を0とした定常解から，コロナモデルを得られる．
 \begin{equation}
-    n_{\rm e} \sum_{v, N} \left[ n_{XvN} R^{dv'N'}_{XvN} \right] = n_{dv'N'} \sum_{v''N''} A^{dv'N'}_{av''N''}
+    n_{\rm e} \sum_{v, J} \left[ N_{XvJ} R^{dv'J'}_{XvJ} \right] = N_{dv'J'} \sum_{v''J''} A^{dv'J'}_{av''J''}
 \end{equation}
-$n_e$は電子密度であり，ラングミュアプローブを用いた実験で得た値を用いた\cite{yun}．
-$R^{dv'N'}_{XvN}$は電子衝突励起係数であり，Born-Oppenheimer近似を仮定すると
+式2.3より
 \begin{equation}
-    R^{dv'N'}_{XvN} = q^{dv'}_{Xv} \left< \sigma^{FC}_{v' \leftarrow v} v_{\rm e} \right> a^{1N'}_{0N} \delta^{g^{N'}_{as}}_{g^N_{as}}
+    n_{\rm e} \left( \sum_{v, J} N_{XvJ} \right) \sum_{v, J} \left[ n_{XvJ} R^{dv'J'}_{XvJ} \right] = n_{dv'J'} \left( \sum_{v', J'} N_{dv'J'} \right) \sum_{v''J''} A^{dv'J'}_{av''J''}
+\end{equation}
+ここで$n_{XvJ}$は基底準位の振動・回転状態占有率であり，$n_{XvJ} = N_{XvJ} / \sum_{v,J} N_{XvJ}$である。
+$R^{dv'J'}_{XvJ}$は電子衝突励起係数であり，Born-Oppenheimer近似を仮定すると
+\begin{equation}
+    R^{dv'J'}_{XvJ} = q^{dv'}_{Xv} \left< \sigma^{FC}_{v' \leftarrow v} v_{\rm e} \right> a^{1J'}_{0J} \delta^{g^{J'}_{as}}_{g^J_{as}}
 \end{equation}
 と書ける\cite{PRnoijousei}．
 $q^{dv'}_{Xv}$はFranck-Condon因子である．
 $\sigma^{FC}_{v' \leftarrow v}$は電子衝突励起断面積であり，$v_{\rm e}$はマクスウェル分布を仮定した電子の速度分布である．
-$a^{1N'}_{0N}$は回転構造の分岐比，$\delta^{g^{N'}_{as}}_{g^N_{as}}$はクロネッカーのデルタである．
-電子衝突断面積について，本研究では次式のようにFranch-Condon原理と電子衝突励起確率のボルツマン則(エネルギー差が小さいほど励起確率が大きい)を仮定したスケーリングを用いた\cite{kyokaisou}．
+$a^{1J'}_{0J}$は回転構造の分岐比，$\delta^{g^{J'}_{as}}_{g^J_{as}}$はクロネッカーのデルタである．
+電子衝突断面積について，本研究では次式のようにFranch-Condon原理と電子衝突励起確率のボルツマン則(エネルギー差が小さい遷移ほど励起確率が大きい)を仮定したスケーリングを用いた\cite{kyokaisou}．
 \begin{equation}
     \left< \sigma^{FC}_{v' \leftarrow v} v_{\rm e} \right> \propto \left< \sigma^{FC}_{0 \leftarrow 0} v_{\rm e} \right> \times \exp \left( -\frac{(E^d_{\rm vib} (v') - E^d_{\rm vib} (0))-(E^X_{\rm vib} (v) - E^X_{\rm vib} (0))}{k_{\rm B} T_{\rm e}} \right)
 \end{equation}
-$k_{\rm B}$はボルツマン定数である．
 $E^d_{\rm vib} (v'), E^X_{\rm vib} (v)$はそれぞれ発光上準位と基底準位の振動エネルギーで，式2.2を用いて算出した．
-$T_{e}$は電子温度であり，ラングミュアプローブを用いた実験の値\cite{yun}を用いた．
+$T_{e}$は電子温度である．
 回転構造の分岐比は
 \begin{equation}
-    a^{1N'}_{0N} = \sum_r \overline{Q'_{r}} (2N'+1) \left( \begin{array}{ccc} N' & r & N \\ 1 & -1 & 0 \end{array} \right)^2
+    a^{1J'}_{0J} = \sum_r \overline{Q'_{r}} (2J'+1) \left( \begin{array}{ccc} J' & r & J \\ 1 & -1 & 0 \end{array} \right)^2
 \end{equation}
 と表せる\cite{kyokaisou}が，ここで$\overline{Q'_{r}}$は電子速度で平均化した部分断面積で，実験的に求められた値\cite{senkusya}を使用した．
 なお，右辺の行列はWignerの3j記号である．
-クロネッカーのデルタ$\delta^{g^{N'}_{as}}_{g^N_{as}}$は，核スピンの対称性が基底準位と発光上準位で同じなら1，異なれば0となる．
+クロネッカーのデルタ$\delta^{g^{J'}_{as}}_{g^J_{as}}$は，核スピンの対称性が基底準位と発光上準位で同じなら1，異なれば0となる．
 
-\subsection{基底準位占有数}
-発光上準位と同様に，基底準位の振動・回転励起分布にもボルツマン分布を仮定する．
-振動温度を$T^X_{\rm vib}$，回転温度を$T^X_{\rm rot}$として，$n_{XvN}$を
+\subsection{基底準位の振動・回転状態占有率}
+発光上準位と同様に，基底準位の振動・回転状態占有数にもボルツマン分布を仮定する．
+振動温度を$T^X_{\rm vib}$，回転温度を$T^{Xv}_{\rm rot}$として，$n_{XvJ}$は
 \begin{equation}
 \begin{split}
-    n_{XvN} &= C_X (2N+1) g^N_{\rm as} \exp \left( - \frac{E^{Xv}_{\rm rot}(N)}{k_{\rm B} T^{Xv}_{\rm rot}} \right) \exp \left( - \frac{E^{X}_{\rm vib}(v)}{k_{\rm B} T^{X}_{\rm vib}} \right)\\
-    &= \frac{ n_X (2N+1) g^N_{\rm as} \exp \left( - \frac{E^{Xv}_{\rm rot}(N)}{k_{\rm B} T^{Xv}_{\rm rot}} \right) \exp \left( - \frac{E^{X}_{\rm vib}(v)}{k_{\rm B} T^{X}_{\rm vib}} \right) }{\sum_{vN} (2N+1) g^N_{\rm as} \exp \left( - \frac{E^{Xv}_{\rm rot}(N)}{k_{\rm B} T^{Xv}_{\rm rot}} \right) \exp \left( - \frac{E^{X}_{\rm vib}(v)}{k_{\rm B} T^{X}_{\rm vib}} \right)}
+    n_{XvJ} &= \frac{ (2J+1) g^J_{\rm as} \exp \left( - \frac{E^{Xv}_{\rm rot}(J)}{k_{\rm B} T^{Xv}_{\rm rot}} \right) \exp \left( - \frac{E^{X}_{\rm vib}(v)}{k_{\rm B} T^{X}_{\rm vib}} \right) }{\sum_{vJ} (2J+1) g^J_{\rm as} \exp \left( - \frac{E^{Xv}_{\rm rot}(J)}{k_{\rm B} T^{Xv}_{\rm rot}} \right) \exp \left( - \frac{E^{X}_{\rm vib}(v)}{k_{\rm B} T^{X}_{\rm vib}} \right)}\\
+    &= C (2J+1) g^J_{\rm as} \exp \left( - \frac{E^{Xv}_{\rm rot}(J)}{k_{\rm B} T^{Xv}_{\rm rot}} \right) \exp \left( - \frac{E^{X}_{\rm vib}(v)}{k_{\rm B} T^{X}_{\rm vib}} \right)
 \end{split}
 \end{equation}
-と表す．
-ここで，$(2N+1)$は回転の統計重率である．
-$g^N_{\rm as}$は核スピンの統計重率であり，回転量子数Nが奇数の時3，偶数の時1となる．
-また，右辺の$C_X$は規格化定数であり$n_X$は基底準位の密度を表す．
-式2.10のコロナモデルの式に代入すると，発光上準位の占有数は
+と書ける．
+ここで，$(2J+1)$は回転の縮退度である．
+$g^J_{\rm as}$は核スピンの縮退度であり，Jが奇数の時3，偶数の時1となる．
+また，$C = 1 / \sum_{vJ} (2J+1) g^J_{\rm as} \exp \left( - \frac{E^{Xv}_{\rm rot}(J)}{k_{\rm B} T^{Xv}_{\rm rot}} \right) \exp \left( - \frac{E^{X}_{\rm vib}(v)}{k_{\rm B} T^{X}_{\rm vib}} \right)$である．
+式2.12のコロナモデルの式に代入すると，発光上準位の占有率は
 \begin{equation}
-    n_{dv'N'} = \frac{n_{\rm e} \sum_{v,N} \left[ R^{dv'N'}_{XvN} (2N+1)g^N_{as} n_X \exp\left(-\frac{E^{Xv}_{rot}(N)}{k_BT^{Xv}_{rot}}\right) \exp\left(-\frac{E^{X}_{vib}(v)}{k_BT^{X}_{vib}}\right) \right]}{\sum_{v"N"}A^{dv'N'}_{av"N"}}
+    n_{dv'J'} = C' \frac{ \sum_{v, J} \left[ R^{dv'J'}_{XvJ} (2J+1) g^J_{\rm as} \exp \left( - \frac{E^{Xv}_{\rm rot}(J)}{k_{\rm B} T^{Xv}_{\rm rot}} \right) \exp \left( - \frac{E^{X}_{\rm vib}(v)}{k_{\rm B} T^{X}_{\rm vib}} \right) \right] } { \sum_{v''J''} A^{dv'J'}_{av''J''} }
 \end{equation}
 と表せる．
-式2.3によって求めた$n_{dv'N'}$を代入し，右辺の$T^{X}_{\rm vib}$をフィッティングによって求めることができる．
-右辺の$T^{Xv}_{\rm rot}$について，回転温度は回転定数に比例するという関係式\cite{rot-temperature-ratio}
+ただし，$v', J'$に依存しない定数を$C'$にまとめた．
+また，右辺の$T^{Xv}_{\rm rot}$について，回転温度は回転定数に比例するという関係式\cite{rot-temperature-ratio}
 \begin{equation}
     T^{Xv}_{\rm rot} = \frac{B^{Xv}}{B^{dv'}} T^{dv'}_{\rm rot}
 \end{equation}
-を用いて，2.2.2章で求めた発光上準位から計算できる．
+を用いて，2.2.2章で求めた発光上準位の回転温度から計算できる．
+式2.5によって求めた$n_{dv'J'}$を代入し，右辺の$T^{X}_{\rm vib}$をフィッティングによって求めることができる．
 
-以上の手順で求まった振動・回転温度を式2.14に代入することにより，基底準位の占有率分布を求めることができる．
+以上の手順で求まった基底準位の振動・回転温度を式2.16に代入することにより，基底準位の振動・回転状態占有率を求めることができる．
