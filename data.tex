@@ -12,11 +12,11 @@
 
 \section{実験データ}
 図\ref{fig:picture-example}に，上述の手順5で撮影した画像の例を示す．
-図\ref{fig:spectrum-example}は画像の各ピクセルが出力した値を縦に合計したものをプロットしたグラフである．
-また，アノードに電流を流したまま電極間の電流を止めてプラズマを消した状態で同様にデータを取ったものが図\ref{fig:back-spectrum-example}である．
+図\ref{fig:spectrum-example}は図\ref{fig:picture-example}の各画素のカウント数を縦に合計したものをプロットしたグラフである．
+また，手順6で得たデータのうち，図\ref{fig:spectrum-example}と波長範囲が同じものを図\ref{fig:back-spectrum-example}に示す．
 横方向のピクセルが1027のデータが不自然なことが見て分かるが，これはCCDカメラのある一つのピクセルが，光の強度に関わらず異常な値を出力していることが原因である．
 プラズマをつけて得たデータからプラズマを消したバックグラウンドのデータを減算することで，このようなノイズを打ち消すことができる．
-バックグラウンドのデータを除いたものが図\ref{fig:true-spectrum-example}である．
+図\ref{fig:spectrum-example}からバックグラウンドのデータを除いたものが図\ref{fig:true-spectrum-example}である．
 以降の解析では，全ての画像に対してこの処理を施したものを使用した．
 
 \section{波長校正}
