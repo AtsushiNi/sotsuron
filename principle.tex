@@ -8,7 +8,7 @@ Fulcher-α遷移に関わる水素分子のエネルギー準位について説�
 横軸は分子の核間距離，縦軸はポテンシャルエネルギーである．
 
 図中の記号X, d, aは分子中の電子のエネルギー準位に対応し，基底準位をXと表し，基底準位と同じスピン多重度を持つ電子励起準位はエネルギーの低い順にA,B,C,...,異なるスピン多重度を持つ電子励起準位はa,b,c,...と表す．
-また$\Sigma$や$\Pi$といった記号は，軌道角運動量$L$の軸方向への射影成分$M_L$の大きさ$\Lambda = |M_L|=$0,1,2,3,...に対応しており，順に$\Sigma,\Pi,\Delta,\Phi,...$を用いる\cite{bunsibunko-no-kiso}．
+また$\Sigma$や$\Pi$といった記号は，軌道角運動量$L$の分子軸方向への射影成分$M_L$の大きさ$\Lambda = |M_L|=$0,1,2,3,...に対応しており，順に$\Sigma,\Pi,\Delta,\Phi,...$を用いる\cite{bunsibunko-no-kiso}．
 その左上の数字はスピン多重度$2S+1$である\cite{bunsibunko-no-kiso}．
 分子軸を含む平面についての鏡面反転操作による電子波動関数の符号変化の有無に応じて上付き添え字+または-を付けており，分子中心についての反転操作による符号変化の有無に応じて下付き添え字uまたはgを付けている\cite{bunsibunko-no-kiso}．
 
@@ -20,25 +20,24 @@ Fulcher-α遷移に関わる水素分子のエネルギー準位について説�
 その励起された分子が発光下準位$a^3 \Sigma^+_g$へ自然放出する際に発光するスペクトル帯が本研究の計測対象とするFulcher-α帯である．
 
 \subsection{分子の振動・回転エネルギー}
-原子核は電子に比べて数千倍重いために分子の振動・回転は電子の運動に比べて十分遅くなり，電子が原子核の位置変化に対して瞬時に追随できるとする近似をBorn-Oppenheimer近似という\cite{bunsibunko-no-kiso}．
+原子核は電子に比べて数千倍重いために分子の振動・回転は電子の運動に比べて十分遅くなり，電子が原子核の位置変化に対して瞬時に追随できるとする近似をBorn-Oppenheimer近似という．
 この近似を用いると，水素分子を構成する全ての粒子に対してシュレディンガー方程式を同時に解くのではなく，分子の電子波動関数と振動・回転の波動関数を分離することで，振動・回転準位エネルギーを求めることが可能になる．
 回転による遠心力ひずみを考慮した回転準位エネルギーは以下のように近似的に表すことができる\cite{bunsibunko-no-kiso}．
 \begin{equation}
-    E^v_{\rm rot} \cong B^{\rm v} J (J+1) - D_{\rm e} [J(J+1)]^2
+    E^v_{\rm rot} \cong B^v J (J+1) - D_{\rm e} [J(J+1)]^2
 \end{equation}
-ここで$B^{\rm v}$は回転定数であり，平衡点における回転定数$B_{\rm e}$と回転定数の1次の補正項$\alpha_{\rm e}$を用いて$B^{\rm v}=B_{\rm e} - \alpha_{\rm e} (v + 1/2)$と近似される\cite{bunsibunko-no-kiso}．
+ここで$B^{\rm v}$は回転定数であり，平衡点における回転定数$B_{\rm e}$と回転定数の1次の補正項$\alpha_{\rm e}$を用いて$B^{\rm v}=B_{\rm e} - \alpha_{\rm e} (v + 1/2)$と近似される．
 $D_{\rm e}$は遠心力ひずみ定数である．
-また，振動準位エネルギーは以下の近似式で表すことができる\cite{bunsibunko-no-kiso}．
+また，振動準位エネルギーは以下の近似式で表すことができる．
 \begin{equation}
     E_{\rm vib} \cong \overline{\omega}_{\rm e} \left(v + \frac{1}{2} \right) - \overline{\omega}_{\rm e} \chi_{\rm e} \left(v + \frac{1}{2} \right)^2
 \end{equation}
 ここで$\overline{\omega}_{\rm e}$は振動定数，$\chi_{\rm e}$は２次の補正項である．
-表\ref{table:molecular-constants}にまとめたこれらの分子定数はデータベースから得られる\cite{nist}．
+表\ref{table:molecular-constants}にまとめたこれらの分子定数はデータベース\cite{nist}から得られる．
 
 \subsection{Fulcher-α帯遷移の選択則}
 分子の電子状態間の遷移には一般的に振動回転状態の遷移が伴うが，そこには選択則が存在する\cite{bunsibunko-no-kiso}．
-まず，振動量子数は$\Delta v = v'-v'' = 0$を満たす．
-また，回転量子数は$\Delta J = J' - J'' = -1,0,1$を満たすが，$J'=J''=0$は禁制遷移である．
+回転量子数は$\Delta J = J' - J'' = -1,0,1$を満たすが，$J'=J''=0$は禁制遷移である．
 $\Delta J$に対応するスペクトル枝をそれぞれP枝，Q枝，R枝と呼ぶが，本研究ではQ枝について分析を行うので，$\Delta J = 0$である．
 
 \section{発光上準位及び基底準位の振動・回転状態占有率}
@@ -95,12 +94,12 @@ $(2J'+1)$, $g^{J'}_{\rm as}$, $E^{dv'}_{\rm rot}$, $T^{dv'}_{\rm rot}$は，そ�
     \frac{\partial N_{dv'J'}}{\partial t} = n_{\rm e} \sum_{v, J} \left[ N_{XvJ} R^{dv'J'}_{XvJ} \right] - N_{dv'J'} \sum_{v"J"} A^{dv'J'}_{av"J"}
 \end{equation}
 ここで$n_{\rm e}$は電子密度であり，$N_{XvJ}$は基底準位の振動・回転状態占有数である．
-右辺第2項の総和記号は選択則($v'-v''=0$かつ$J'-J''=-1,0,1$)を満たす$v''，J''$についての和であることに注意する．
+右辺第2項の総和記号は選択則($J'-J''=-1,0,1$)を満たす$v''，J''$についての和であることに注意する．
 左辺を0とした定常解から，コロナモデルを得られる．
 \begin{equation}
     n_{\rm e} \sum_{v, J} \left[ N_{XvJ} R^{dv'J'}_{XvJ} \right] = N_{dv'J'} \sum_{v''J''} A^{dv'J'}_{av''J''}
 \end{equation}
-式2.3より
+式 (2.3)より
 \begin{equation}
     n_{\rm e} \left( \sum_{v, J} N_{XvJ} \right) \sum_{v, J} \left[ n_{XvJ} R^{dv'J'}_{XvJ} \right] = n_{dv'J'} \left( \sum_{v', J'} N_{dv'J'} \right) \sum_{v''J''} A^{dv'J'}_{av''J''}
 \end{equation}
@@ -116,7 +115,7 @@ $a^{1J'}_{0J}$は回転構造の分岐比，$\delta^{g^{J'}_{as}}_{g^J_{as}}$は
 \begin{equation}
     \left< \sigma^{FC}_{v' \leftarrow v} v_{\rm e} \right> \propto \left< \sigma^{FC}_{0 \leftarrow 0} v_{\rm e} \right> \times \exp \left( -\frac{(E^d_{\rm vib} (v') - E^d_{\rm vib} (0))-(E^X_{\rm vib} (v) - E^X_{\rm vib} (0))}{k_{\rm B} T_{\rm e}} \right)
 \end{equation}
-$E^d_{\rm vib} (v'), E^X_{\rm vib} (v)$はそれぞれ発光上準位と基底準位の振動エネルギーで，式2.2を用いて算出した．
+$E^d_{\rm vib} (v'), E^X_{\rm vib} (v)$はそれぞれ発光上準位と基底準位の振動エネルギーで，式 (2.2)を用いて算出した．
 $T_{e}$は電子温度である．
 回転構造の分岐比は
 \begin{equation}
@@ -137,9 +136,9 @@ $T_{e}$は電子温度である．
 \end{equation}
 と書ける．
 ここで，$(2J+1)$は回転の縮退度である．
-$g^J_{\rm as}$は核スピンの縮退度であり，Jが奇数の時3，偶数の時1となる．
+$g^J_{\rm as}$は核スピンの縮退度であり，$J$が奇数の時3，偶数の時1となる．
 また，$C = 1 / \sum_{vJ} (2J+1) g^J_{\rm as} \exp \left( - \frac{E^{Xv}_{\rm rot}(J)}{k_{\rm B} T^{Xv}_{\rm rot}} \right) \exp \left( - \frac{E^{X}_{\rm vib}(v)}{k_{\rm B} T^{X}_{\rm vib}} \right)$である．
-式2.12のコロナモデルの式に代入すると，次の式が導ける．
+式 (2.12)のコロナモデルの式に代入すると，次の式が導ける．
 \begin{equation}
     \frac{n_{dv'J'}}{\left( 2J'+1 \right) g^{J'}_{\rm as}} = C' \frac{ \sum_{v, J} \left[ R^{dv'J'}_{XvJ} (2J+1) g^J_{\rm as} \exp \left( - \frac{E^{Xv}_{\rm rot}(J)}{k_{\rm B} T^{Xv}_{\rm rot}} \right) \exp \left( - \frac{E^{X}_{\rm vib}(v)}{k_{\rm B} T^{X}_{\rm vib}} \right) \right] } {\left( 2J'+1 \right) g^{J'}_{\rm as} \sum_{v''J''} A^{dv'J'}_{av''J''} }
 \end{equation}
@@ -149,6 +148,6 @@ $g^J_{\rm as}$は核スピンの縮退度であり，Jが奇数の時3，偶数�
     T^{Xv}_{\rm rot} = \frac{B^{Xv}}{B^{dv'}} T^{dv'}_{\rm rot}
 \end{equation}
 を用いて，2.2.2章で求めた発光上準位の回転温度から計算できる．
-式2.5によって求めた$n_{dv'J'}$を式2.17に代入し，右辺の$T^{X}_{\rm vib}$をフィッティングによって求めることができる．
+式 (2.5)によって求めた$n_{dv'J'}$を式 (2.17)に代入し，右辺の$T^{X}_{\rm vib}$をフィッティングによって求めることができる．
 
-以上の手順で求まった基底準位の振動・回転温度を式2.16に代入することにより，基底準位の振動・回転状態占有率を求めることができる．
+以上の手順で求まった基底準位の振動・回転温度を式 (2.16)に代入することにより，基底準位の振動・回転状態占有率を求めることができる．
